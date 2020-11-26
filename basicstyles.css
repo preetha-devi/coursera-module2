@@ -1,0 +1,89 @@
+body {
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+.infobox {
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+.sectiontitle {
+    margin: 0px;
+    color: white;
+    font-size: 125%;
+    text-align: center;
+    width: 22%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 5px;
+}
+#Sushi {
+    background-color: tomato;
+}
+#Veggie {
+    background-color: teal;
+}
+#Indian {
+    background-color: goldenrod;
+}
+.box {
+    position: relative;
+    float: left;
+    padding: 15px;
+    background-color: antiquewhite;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+@media (min-width: 992px) {
+    .box {
+        width: 30.66%;
+        margin-top: 1%;
+    }
+    #one {
+        margin-left: 2%;
+        margin-right: 1%;
+    }
+    #two {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    #three {
+        margin-left: 1%;
+        margin-right: 2%;
+    }
+
+}
+
+@media (min-width:768px) and (max-width: 991px) {
+    #one {
+        width: 47%;
+        margin: 2%;
+        margin-left: 2%;
+        margin-right: 1%;
+    }
+    #two {
+        width: 47%;
+        margin: 2%;
+        margin-left: 1%;
+        margin-right: 2%;
+    }
+    #three {
+        width: 96%;
+        margin: 2%;
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .box {
+        width: 96%;
+        margin: 2%;
+    }
+    
+}
